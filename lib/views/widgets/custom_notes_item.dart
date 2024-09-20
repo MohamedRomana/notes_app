@@ -23,7 +23,7 @@ class NotesItem extends StatelessWidget {
               child: Text(
                 'Build Your Career With Mohamed Romana',
                 style: TextStyle(
-                    color: Colors.black.withOpacity(0.5), fontSize: 20),
+                    color: Colors.black.withOpacity(0.5), fontSize: 18),
               ),
             ),
             trailing: IconButton(
