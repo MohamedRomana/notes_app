@@ -29,6 +29,7 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
             onPressed: () {
               widget.note.title = title ?? widget.note.title;
               widget.note.subTitle = subTitle ?? widget.note.subTitle;
+              widget.note.save();
               BlocProvider.of<NotesCubit>(context).fechAllNotes();
               Navigator.pop(context);
             },
